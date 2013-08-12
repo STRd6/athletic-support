@@ -24,5 +24,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/STRd6/athletic-support/issues"
+  },
+  "dependencies": {
+    "inflecta": "~0.8.1",
+    "cornerstone-js": "~0.2.0"
   }
 }
