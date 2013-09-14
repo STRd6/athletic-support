@@ -1,6 +1,6 @@
 {
   "name": "athletic-support",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Support for your node",
   "main": "dist/athletic_support.js",
   "scripts": {
