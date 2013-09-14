@@ -14,3 +14,6 @@ Here we require Conerstone to provide the bulk of native prototype extensions.
 Inflecta brings some additional and better string extensions.
 
     require('inflecta').pollute()
+
+    # TODO: Move this to external lib
+    global.Base64 = require('./base64')
