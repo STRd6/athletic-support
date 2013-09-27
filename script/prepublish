@@ -5,6 +5,6 @@ cp source/*.js dist/
 
 for file in dist/*.js
 do
-  ./node_modules/.bin/uglifyjs $file > tmp.js
+  ./node_modules/.bin/uglifyjs 2> /dev/null $file > tmp.js
   mv tmp.js $file
 done

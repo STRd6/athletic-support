@@ -8,6 +8,17 @@ describe 'AthleticSupport', ->
 
     assert "".blank()
 
+  describe "Deferred", ->
+    it "should be an ok implementation", (done) ->
+
+      Deferred()
+      .resolve("Radical")
+      .then ->
+        done()
+
+    it "should have a promise method that returns promises", ->
+      assert Deferred().promise()
+
   describe "Base64", ->
     it "should encode", ->
       assert.equal Base64.encode("hello"), "aGVsbG8="

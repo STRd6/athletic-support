@@ -17,3 +17,5 @@ Inflecta brings some additional and better string extensions.
 
     # TODO: Move this to external lib
     global.Base64 = require('./base64')
+
+    global.Deferred = require("deferred")
