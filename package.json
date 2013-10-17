@@ -1,6 +1,6 @@
 {
   "name": "athletic-support",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Support for your node",
   "main": "dist/athletic_support.js",
   "scripts": {
@@ -15,8 +15,8 @@
     "url": "https://github.com/STRd6/athletic-support"
   },
   "dependencies": {
-    "inflecta": "~0.8.2",
-    "cornerstone-js": "~0.2.0",
+    "inflecta": "~0.8.3",
+    "cornerstone-js": "~0.3.1",
     "deferred": "~0.6.5"
   },
   "devDependencies": {

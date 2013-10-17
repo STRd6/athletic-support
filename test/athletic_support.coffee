@@ -8,6 +8,8 @@ describe 'AthleticSupport', ->
 
     assert "".blank()
 
+    assert Core
+
   describe "Deferred", ->
     it "should be an ok implementation", (done) ->
 
