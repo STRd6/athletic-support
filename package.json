@@ -1,6 +1,6 @@
 {
   "name": "athletic-support",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Support for your node",
   "main": "dist/athletic_support.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "inflecta": "~0.8.3",
-    "cornerstone-js": "~0.3.1",
+    "cornerstone-js": "~0.3.2",
     "deferred": "~0.6.5"
   },
   "devDependencies": {
